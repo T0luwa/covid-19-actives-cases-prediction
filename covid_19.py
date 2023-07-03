@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 
-covid_19_prediction = pickle.load(open('/Users/test/Downloads/linear_model_for covid19.sav', 'rb'))
+covid_19_prediction = pickle.load(open('linear_model_for covid19.sav', 'rb'))
 
 st.title('Covid 19 active cases prediction app')
 
